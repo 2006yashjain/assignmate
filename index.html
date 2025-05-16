@@ -1,0 +1,55 @@
+html_code = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Service Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Helping Students, One Project at a Time</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#students">Students</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Available Services</h2>
+        <div class="service">
+            <h3>Handwritten Project Files</h3>
+            <p>Get your academic projects neatly written by skilled students.</p>
+        </div>
+        <div class="service">
+            <h3>Practical Notebooks</h3>
+            <p>Need help with lab reports or practical work? Find a student expert here.</p>
+        </div>
+    </section>
+
+    <section id="students">
+        <h2>Student Profiles</h2>
+        <div class="student">
+            <h3>John Doe</h3>
+            <p>Expert in engineering reports and handwritten notes.</p>
+        </div>
+        <div class="student">
+            <h3>Jane Smith</h3>
+            <p>Specialized in handmade physical models and charts.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Student Service Platform | Contact: support@example.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+"""
+
+with open("index.html", "w") as file:
+    file.write(html_code)
